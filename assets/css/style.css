@@ -5,10 +5,13 @@ body{
 
 header{
     background-color: rgb(231, 236, 241);
+    background-image: radial-gradient(circle at top left,rgb(209, 213, 218),  white);
 }
 .para1{
-    margin-top: 150px;
-   font-size: large;
+    margin-top: 100px;
+   font-size: medium;
+   
+   
 }
 .liens{
     color: rgb(73,80,87);
@@ -19,13 +22,18 @@ header{
    margin-top: 250px;
 }
 .titre2{
-    margin-top: 100px;
+    margin-top: 80px;
     
 }
 
 .card{
     width: 22rem;
     height: 50rem;
+    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
+}
+
+.card2{
+    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
 }
 
 .reseau{
@@ -42,13 +50,29 @@ header{
     margin-top: 4em ;
 }
 .hr1{
-    width: 50em;
-    margin-top: 8em;   
+    width: 35em;
+    margin-top: 8em;  
+    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
 }
-
 .hr2{
-    width: 10em;
+    width: 4em;
     margin-top: 4em;
     
 }
+.img-carte1{
+    margin-left: 2em;
+}
+.img-carte2{
+    margin-left: 3em;
+}
+
+.img-carte3{
+    margin-left: 1em;
+}
+
+.img-couple{
+    margin-left: 8em;
+}
+
+
     
