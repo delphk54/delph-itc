@@ -18,3 +18,13 @@ header{
 .texte{
     margin-top: 250px;
 }
+.card{
+    width: 20rem;
+}
+
+.developpement{
+    margin-top: 20px;
+}
+.reseau{
+    width: 5rem;
+}
