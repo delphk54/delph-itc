@@ -1,10 +1,13 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(73,80,87);
+}
+
 header{
     background-color: rgb(231, 236, 241);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.liens{
     color: rgb(73,80,87);
 }
-.navbar{
-    background-color: rgb(231, 236, 241);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(73,80,87);
-}
+
