@@ -15,16 +15,18 @@ header{
    color: rgb(249, 107, 18); 
    margin-top: 250px;
 }
-.texte{
+.sous-titre{
     margin-top: 250px;
 }
+
 .card{
-    width: 20rem;
+    width: 22rem;
+    height: 50rem;
 }
 
-.developpement{
-    margin-top: 20px;
-}
 .reseau{
     width: 5rem;
+}
+.parag-developpement{
+    margin-top: 5em;
 }
