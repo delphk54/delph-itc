@@ -19,7 +19,8 @@ header{
 
 .t2{
    color: rgb(249, 107, 18); 
-   margin-top: 250px;
+   margin-top: 260px;
+   
 }
 .titre2{
     margin-top: 80px;
@@ -137,5 +138,8 @@ form {
   }
   i{
       color: rgb(211, 213, 216);
+  }
+  .carte-rh{
+      width: 50em;
   }
     
