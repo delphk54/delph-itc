@@ -22,9 +22,16 @@ header{
    margin-top: 260px;
    
 }
+
 .titre2{
+    color: rgb(73,80,87);
     margin-top: 80px;
-    
+}
+
+.titre2:hover{
+  color: rgb(249, 107, 18);
+  transform: scale(1.2);
+  transition: 0.4s;
 }
 
 .card{
@@ -57,9 +64,9 @@ header{
 }
 .hr2{
     width: 4em;
-    margin-top: 4em;
-    
+    margin-top: 4em; 
 }
+
 .img-carte1{
     margin-left: 2em;
 }
@@ -150,4 +157,9 @@ form {
   .carte-rh2{
     width: 50em;
     background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
+}
+.card-title:hover{
+    color: rgb(63,142,188);
+    transform: scale(1.2);
+  transition: 0.4s;
 }
