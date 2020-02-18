@@ -129,10 +129,13 @@ form {
        entre les étiquettes et les champs texte */
        width: 15em;
        color:  rgb(73,80,87);
-       background-image: radial-gradient(circle at top left,rgb(249, 107, 18),  white);
+       background-color: rgba(247, 178, 136, 0.979);
        
   }
   .img-bulles{
       padding-right: 10em;
+  }
+  i{
+      color: rgb(211, 213, 216);
   }
     
