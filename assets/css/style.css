@@ -128,18 +128,26 @@ form {
   .button {
     /* Cette marge supplémentaire représente grosso modo le même espace que celui
        entre les étiquettes et les champs texte */
-       width: 15em;
+       width: 10em;
        color:  rgb(73,80,87);
-       background-color: rgba(247, 178, 136, 0.979);
        
   }
+  .button:hover{
+    background-color: rgb(236, 155, 104);
+  }
+
+
   .img-bulles{
       padding-right: 10em;
   }
   i{
       color: rgb(211, 213, 216);
   }
-  .carte-rh{
+  .carte-rh1{
       width: 50em;
+      background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
   }
-    
+  .carte-rh2{
+    width: 50em;
+    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
+}
