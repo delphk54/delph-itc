@@ -130,5 +130,9 @@ form {
        width: 15em;
        color:  rgb(73,80,87);
        background-image: radial-gradient(circle at top left,rgb(249, 107, 18),  white);
+       
+  }
+  .img-bulles{
+      padding-right: 10em;
   }
     
