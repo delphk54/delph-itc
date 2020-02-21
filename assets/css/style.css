@@ -1,3 +1,4 @@
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(73,80,87);
@@ -7,55 +8,69 @@ header{
     background-color: rgb(231, 236, 241);
     background-image: radial-gradient(circle at top left,rgb(209, 213, 218),  white);
 }
-.para1{
-    margin-top: 100px;
-   font-size: medium;
-   
-   
+.nav{
+    position: fixed;
 }
 .liens{
     color: rgb(73,80,87);
 }
-
-.t2{
-   color: rgb(249, 107, 18); 
-   margin-top: 260px;
-   
+.intro{
+    margin-top: 8em;
 }
 
-.titre2{
+.t2{
+    color: rgb(249, 107, 18); 
+    margin-top: 260px;
+    padding-right: 4em;
+    
+ }
+ .titre1{
+    font-size:4em;
+    
+}
+
+ .titre2{
     color: rgb(73,80,87);
-    margin-top: 80px;
+    margin-top: 6em;
 }
 
 .titre2:hover{
-  color: rgb(249, 107, 18);
-  transform: scale(1.2);
-  transition: 0.4s;
+    color: rgb(249, 107, 18);
+    transform: scale(1.2);
+    transition: 0.4s;
 }
-
 .card{
+    margin-top: 8em;
     width: 22rem;
     height: 50rem;
     background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
 }
-
 .card2{
+    width: 22em;
+    height: 35em;
     background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
 }
+.card3{
+    width: 22em;
+    height: 35em;
+    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
+}
+.c1{
+    margin-top: 8em;
+}
+.scene{
+    margin-top: 10em;
 
-.reseau{
-    width: 5rem;
-    margin-top: 5em;
 }
-.parag-developpement{
-    margin-top: 5em;
+.scene1{
+    width: 30em;
 }
-.r2{
-    margin-top: 6em;
+
+.p1{
+    padding-top: 2em;
 }
-.etudes{
-    margin-top: 4em ;
+i{
+    color: rgb(211, 213, 216);
 }
 .hr1{
     width: 35em;
@@ -65,21 +80,6 @@ header{
 .hr2{
     width: 4em;
     margin-top: 4em; 
-}
-
-.img-carte1{
-    margin-left: 2em;
-}
-.img-carte2{
-    margin-left: 3em;
-}
-
-.img-carte3{
-    margin-left: 1em;
-}
-
-.img-couple{
-    margin-left: 8em;
 }
 
 
@@ -124,7 +124,7 @@ form {
     border-color: #000;
   }
   
-  textarea {
+textarea {
     /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
     vertical-align: top;
   
@@ -132,34 +132,56 @@ form {
     height: 5em;
   }
   
-  .button {
+.button {
     /* Cette marge supplémentaire représente grosso modo le même espace que celui
        entre les étiquettes et les champs texte */
        width: 10em;
        color:  rgb(73,80,87);
        
   }
-  .button:hover{
+.button:hover{
     background-color: rgb(236, 155, 104);
   }
 
-
-  .img-bulles{
-      padding-right: 10em;
-  }
-  i{
-      color: rgb(211, 213, 216);
-  }
-  .carte-rh1{
-      width: 50em;
+.carte-rh1{
+     
+      
       background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
-  }
-  .carte-rh2{
-    width: 50em;
-    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
 }
+.carte-comp{
+    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
+    margin-top: 4em;
+}
+.carte-rh2{
+   margin-top: 4em;
+   background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
+}
+
 .card-title:hover{
     color: rgb(63,142,188);
     transform: scale(1.2);
-  transition: 0.4s;
+    transition: 0.4s;
+}
+.reseau{
+    margin-top: 5em;
+}
+.parag-developpement{
+    margin-top: 5em;
+}
+.carte-qui{
+    margin-top: 8em;
+    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
+}
+.img-bulles{
+    margin-top: 2em;
+}
+.adresse{
+    font-size: larger;
+}
+.ombre{
+    box-shadow: 10px 20px;
+    color: coral;
+}
+.rgpd{
+    background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
 }
