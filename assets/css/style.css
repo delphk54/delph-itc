@@ -178,10 +178,14 @@ textarea {
 .adresse{
     font-size: larger;
 }
-.ombre{
-    box-shadow: 10px 20px;
-    color: coral;
-}
 .rgpd{
     background-image: radial-gradient(circle at top left,rgb(230, 233, 238),  white);
+}
+.footer-haut{
+    width: auto;
+    height: 10em;
+    margin-top: 10em;
+}
+.ul{
+    padding-top: 4em;
 }
